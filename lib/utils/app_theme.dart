@@ -14,7 +14,7 @@ class AppTheme {
     colorScheme: const ColorScheme.dark(
       primary: accent,
       surface: surface,
-      background: background,
+      onSurface: Colors.white,
     ),
     appBarTheme: const AppBarTheme(
       backgroundColor: surface,
